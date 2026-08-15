@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSC/HSC Result verification</title>
+    <!-- Google Fonts for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #071022;
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 2.2rem;
+            color: #ffffff;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            color: #94a3b8;
+            font-size: 1rem;
+        }
+
+        /* Responsive Grid Container */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        /* Card Link Styling */
+        .card-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .card {
+            background: #1c283b;
+            padding: 30px 25px;
+            border-radius: 20px;
+            text-align: center;
+            border: 2px solid transparent;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            background: #22354e;
+            border-color: #22c55e;
+            box-shadow: 0 15px 30px rgba(34, 197, 94, 0.25);
+        }
+
+        .badge {
+            background-color: rgba(34, 197, 94, 0.15);
+            color: #22c55e;
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .card h2 {
+            font-size: 1.6rem;
+            margin-bottom: 15px;
+            color: #ffffff;
+        }
+
+        .btn-text {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #22c55e;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .card:hover .btn-text {
+            color: #4ade80;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #22c55e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Mobile Optimization */
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            .card {
+                padding: 25px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>SSC/HSC Result</h1>
+        <p>Select any server link below to check your result</p>
+    </div>
+
+    <div class="grid-container">
+        <!-- Server 1 -->
+        <a href="" target="_blank" class="card-link">
+            <div class="card">
+                <span class="badge">Server 1</span>
+                <h2>LINK 1</h2>
+                <div class="btn-text">
+                    Check Result &rarr;
+                </div>
+            </div>
+        </a>
+
+        <!-- Server 2 -->
+        <a href="https://www.eduboardresults.gov.bd/" target="_blank" class="card-link">
+            <div class="card">
+                <span class="badge">Server 2</span>
+                <h2>LINK 2</h2>
+                <div class="btn-text">
+                    Check Result &rarr;
+                </div>
+            </div>
+        </a>
+ <a href="https://eboardresults.com/v2/home" target="_blank" class="card-link">
+            <div class="card">
+                <span class="badge">Server 3</span>
+                <h2>LINK 3</h2>
+                <div class="btn-text">
+                    Check Result &rarr;
+                </div>
+            </div>
+        </a>
+ <a href="https://dhakaeducationboard.gov.bd/site/" target="_blank" class="card-link">
+            <div class="card">
+                <span class="badge">Server 4</span>
+                <h2>LINK 4</h2>
+                <div class="btn-text">
+                    Check Result &rarr;
+                </div>
+            </div>
+        </a>
+ <a href="https://webresult.bd/" target="_blank" class="card-link">
+            <div class="card">
+                <span class="badge">Server 5</span>
+                <h2>LINK 5</h2>
+                <div class="btn-text">
+                    Check Result &rarr;
+                </div>
+            </div>
+        </a>
+ <a href="https://result.bangladeshgov.org/" target="_blank" class="card-link">
+            <div class="card">
+                <span class="badge">Server 6</span>
+                <h2>LINK 6</h2>
+                <div class="btn-text">
+                    Check Result &rarr;
+                </div>
+            </div>
+        </a>
+</a>
+ <a href="https://eboardresultsapp.com/" target="_blank" class="card-link">
+            <div class="card">
+                <span class="badge">Server 7</span>
+                <h2>LINK 7</h2>
+                <div class="btn-text">
+                    Check Result &rarr;
+                </div>
+            </div>
+        </a>
+</a>
+ <a href="http://www.educationboard.gov.bd/" target="_blank" class="card-link">
+            <div class="card">
+                <span class="badge">Server 8</span>
+                <h2>LINK 8</h2>
+                <div class="btn-text">
+                    Check Result &rarr;
+                </div>
+            </div>
+        </a>
+
+    </div>
+
+    <footer>
+        <p>SSC/HSc Result Verification . Dsigned by Md. Ibrahim khalil </p>
+    </footer>
+
+</body>
+</html>
